@@ -1,7 +1,7 @@
 # Blog info
-blog_name: Forsigner
-slogan: Find the bug of the world
-url: http://www.forsigner.com
+blog_name: 福
+slogan: 业精于勤荒于嬉
+url: https://fxliu.github.io/
 
 # Set avatar (Absolute url and relative url)
 avatar: /images/avatar.jpg
@@ -10,21 +10,26 @@ avatar: /images/avatar.jpg
 favicon: /favicon.ico
 
 # For seo
-keywords: forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: C/C++,Python,JavaScript,JS,设计
 
 home_nav:
-  - name: Blog
+  - name: 博客
     url: /archives
     target_blank: false #不在新页面打开
-  - name: Project
-    url: /project/
-    target_blank: true #在新页面打开
+  - name: 分类
+    url: /category/
+    target_blank: false #在新页面打开
+  - name: 标签
+    url: /tag/
+  - name: 搜索
+    url: /search/
+    target_blank: false #在新页面打开
   - name: Github
-    url: https://github.com/forsigner
+    url: https://github.com/fxliu/hexo
     target_blank: true
-  - name: Twitter
-    url: https://twitter.com/forsigner
-    target_blank: true
+#  - name: Twitter
+#    url: https://twitter.com/forsigner
+#    target_blank: true
 
 # config page nav
 page_nav:
@@ -63,11 +68,11 @@ toolbox:
 
 search_slogan:
   isShow: true # true|fase
-  text: Can you find the bug of world ~
+  text: Let's do IT ~
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+  text: 交换友链可以邮件 chen7518@foxmail.com
 
 
 # set backtop show or hide
@@ -83,7 +88,7 @@ backtop:
 donation:
   show: true
   btn_text: 支持一下
-  tip: 扫一扫，支持forsigner
+  tip: 扫一扫，支持一下
   items:
     - type: 微信
       text: 微信扫一扫
@@ -91,9 +96,6 @@ donation:
     - type: 支付宝
       text: 支付宝扫一扫
       imgUrl: /images/qr-alipay.png
-
-
-
 
 post:
   header_align: CENTER # LEFT|CENTER
