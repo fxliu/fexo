@@ -25,10 +25,10 @@ home_nav:
     url: /search/
     target_blank: false #在新页面打开
   - name: 项目
-    url: /project/
+    url: /myproject/
     target_blank: true
   - name: 工具
-    url: /link/
+    url: /mylink/
     target_blank: true
   - name: Github
     url: https://github.com/fxliu/hexo
@@ -47,9 +47,6 @@ page_nav:
     target_blank: false
   - name: 标签
     url: /tag/
-    target_blank: false
-  - name: 友链
-    url: /link/
     target_blank: false
   - name: 关于
     url: /about/
