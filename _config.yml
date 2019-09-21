@@ -27,6 +27,9 @@ home_nav:
   - name: 项目
     url: /project/
     target_blank: true
+  - name: 工具
+    url: /link/
+    target_blank: true
   - name: Github
     url: https://github.com/fxliu/hexo
     target_blank: true
